@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+}
+
+header .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background: #f0f0f5;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    color: #888;
+}
+
+.hero-content h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.hero-content .btn {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Memindahkan gambar ke kanan */
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 80%; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    margin-right: 20px; /* Beri jarak dari tepi kanan */
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background: white;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #6c5ce7;
+}
+
+.about-content {
+    max-width: 60%;
+    margin-left: 20px;
+}
+
+.about-content h2 {
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.about-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+.about-content .btn {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#portfolio {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#portfolio h2 {
+    color: #6c5ce7;
+    margin-bottom: 20px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    width: 300px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.portfolio-item p {
+    padding: 0 10px 20px;
+    color: #555;
+}
